@@ -13,7 +13,7 @@ import orderRouter from './routes/orderRoute.js';
 import { stripeWebhooks } from './controllers/orderController.js';
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
 
 await connectDB()
 await connectCloudinary()
